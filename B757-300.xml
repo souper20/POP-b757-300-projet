@@ -1,0 +1,39 @@
+<AssetPackage Name="B757-300" Version="0.1.0">
+	<ItemSettings>
+		<ContentType>AIRCRAFT</ContentType>
+		<Title>Simple Aircraft</Title>
+		<Manufacturer>My Manufacturer</Manufacturer>
+		<Creator>My Company</Creator>
+	</ItemSettings>
+	<Flags>
+		<VisibleInStore>true</VisibleInStore>
+		<CanBeReferenced>true</CanBeReferenced>
+	</Flags>
+	<AssetGroups>
+		<AssetGroup Name="ContentInfo">
+			<Type>Copy</Type>
+			<Flags>
+				<FSXCompatibility>false</FSXCompatibility>
+			</Flags>
+			<AssetDir>PackageDefinitions\B757-300\ContentInfo\</AssetDir>
+			<OutputDir>ContentInfo\B757-300\</OutputDir>
+		</AssetGroup>
+		<AssetGroup Name="MarketplaceData">
+			<Type>Copy</Type>
+			<Flags>
+				<FSXCompatibility>false</FSXCompatibility>
+			</Flags>
+			<AssetDir>PackageDefinitions\mycompany-aircraft-simple\MarketplaceData\</AssetDir>
+			<OutputDir>MarketplaceData\mycompany-aircraft-simple\</OutputDir>
+		</AssetGroup>
+		<AssetGroup Name="B757-300">
+			<Type>SimObject</Type>
+			<Flags>
+				<FSXCompatibility>false</FSXCompatibility>
+			</Flags>
+			<AssetDir>PackageSources\SimObjects\Airplanes\B757-300\</AssetDir>
+			<OutputDir>SimObjects\Airplanes\B757-300\</OutputDir>
+		</AssetGroup>
+	</AssetGroups>
+</AssetPackage>
+
